@@ -1,0 +1,114 @@
+💥 CLEANING idx2_* INDICES...
+🏗️ CREATING idx2_* INDICES...
+  idx2_text: ✅
+  idx2_tokens: ✅
+  idx2_stopwords: ✅
+
+📈 INDEXING 10000 DOCS TO idx2_*...
+📦 0K docs | 0s
+📦 0K docs | 1s
+📦 0K docs | 1s
+📦 1K docs | 1s
+📦 1K docs | 2s
+📦 1K docs | 2s
+📦 1K docs | 3s
+📦 2K docs | 3s
+📦 2K docs | 3s
+📦 2K docs | 4s
+📦 2K docs | 5s
+📦 3K docs | 6s
+📦 3K docs | 6s
+📦 3K docs | 6s
+📦 4K docs | 7s
+📦 4K docs | 7s
+📦 4K docs | 8s
+📦 4K docs | 8s
+📦 5K docs | 8s
+📦 5K docs | 9s
+📦 5K docs | 9s
+📦 5K docs | 10s
+📦 6K docs | 10s
+📦 6K docs | 10s
+📦 6K docs | 11s
+📦 6K docs | 11s
+📦 7K docs | 12s
+📦 7K docs | 12s
+📦 7K docs | 13s
+📦 8K docs | 13s
+📦 8K docs | 14s
+📦 8K docs | 14s
+📦 8K docs | 14s
+📦 9K docs | 15s
+📦 9K docs | 15s
+📦 9K docs | 16s
+📦 9K docs | 16s
+
+========================================================================================================================
+💾 STORAGE SEGMENT
+========================================================================================================================
+idx2_text       |      8.3 MB | 30,000 docs
+idx2_tokens     |      8.9 MB | 30,000 docs
+idx2_stopwords  |      9.5 MB | 30,000 docs
+
+🏆 STORAGE WINNER: idx2_stopwords 🥇 (9.506738662719727) 🥇
+
+========================================================================================================================
+🏁 SEARCH PERFORMANCE SEGMENTS
+========================================================================================================================
+
+📊 COMMON TERMS
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+Term               idx2_text       idx2_tokens     idx2_stopwords
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+
+📈 AVERAGES (5 terms):
+  idx2_text       |   6809 hits |    1.2ms
+  idx2_tokens     |   6809 hits |    1.0ms
+  idx2_stopwords  |   6809 hits |    1.2ms
+
+🏆 COMMON TERMS WINNER: idx2_text 🥇 (6809.0) (Hits) | idx2_text 🥇 (1.2) (Speed) 🥇🥈
+
+📊 RARE TERMS
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+Term               idx2_text       idx2_tokens     idx2_stopwords
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+
+📈 AVERAGES (4 terms):
+  idx2_text       |   4264 hits |    1.2ms
+  idx2_tokens     |   4264 hits |    1.2ms
+  idx2_stopwords  |   4264 hits |    1.0ms
+
+🏆 RARE TERMS WINNER: idx2_text 🥇 (4263.75) (Hits) | idx2_text 🥇 (1.25) (Speed) 🥇🥈
+
+📊 LONG TERMS
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+Term               idx2_text       idx2_tokens     idx2_stopwords
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+
+📈 AVERAGES (3 terms):
+  idx2_text       |      0 hits |    1.0ms
+  idx2_tokens     |      0 hits |    1.0ms
+  idx2_stopwords  |      0 hits |    1.0ms
+
+🏆 LONG TERMS WINNER: idx2_text 🥇 (0.0) (Hits) | idx2_text 🥇 (1.0) (Speed) 🥇🥈
+
+📊 SPEED TEST
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+Term               idx2_text       idx2_tokens     idx2_stopwords
+ ────────────────────────────────────────────────────────────────────────────────────────────────────
+
+📈 AVERAGES (100 terms):
+  idx2_text       |   5980 hits |    1.2ms
+  idx2_tokens     |   5980 hits |    1.1ms
+  idx2_stopwords  |   5980 hits |    1.1ms
+
+🏆 SPEED TEST WINNER: idx2_text 🥇 (5980.5) (Hits) | idx2_text 🥇 (1.24) (Speed) 🥇🥈
+
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+FINAL CHAMPION: idx2_text - 70% smaller + full-text supremacy!
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+
+🎯 PDF MAPPING:
+```json
+{ "content": { "type": "text", "norms": false, "index_options": "docs" } }
+```
